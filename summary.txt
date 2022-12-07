@@ -1,0 +1,18 @@
+briefing code
+
+mixedOp : mixedOp, operation weights * operate(x) value 
+searchCell : continuos relaxation- search space,  entire outputs(including j nodes) before j node do mixedOp, 
+searchNetwork :  layers of search cells, stack reduction, normal cell, setup architecture parameter
+Architecture : def step, back_step : bilevel optimization - first order, other functions are calculating upper parameters 
+Cell : take result of searchCell 
+Network : searched cell, make up network
+
+cell.png, process making up cell
+0 : connect all node, all ops
+1 : node input strongest ops
+2 : select the 2 inputs for each internal node that are the strongest in step 1
+
+ 
+
+
+
